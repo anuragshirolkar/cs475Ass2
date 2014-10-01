@@ -1,0 +1,90 @@
+
+	double steps = 20;
+
+	double max_head_disp = -0.11;
+	double head_speed = max_head_disp/steps;
+	double cur_head_disp = 0.0;
+
+	double max_left_hand1_disp = 0.025;
+	double left_hand1_speed = max_left_hand1_disp/steps;
+	double cur_left_hand1_disp = 0.0;
+
+	double max_left_hand1_rot = 180;
+	double left_hand1_rot_speed = max_left_hand1_rot/steps;
+	double cur_left_hand1_rot = 0;
+
+	double max_left_hand2_rot = 180;
+	double left_hand2_rot_speed = max_left_hand2_rot/steps;
+	double cur_left_hand2_rot = 0;
+
+	double max_right_hand1_disp = -0.025;
+	double right_hand1_speed = max_right_hand1_disp/steps;
+	double cur_right_hand1_disp = 0.0;
+
+	double max_right_hand1_disp1 = 0.05;
+	double right_hand1_speed1 = max_right_hand1_disp1/steps;
+	double cur_right_hand1_disp1 = 0.0;
+
+	double max_right_hand1_rot = -180;
+	double right_hand1_rot_speed = max_right_hand1_rot/steps;
+	double cur_right_hand1_rot = 0;
+
+	double max_right_hand2_rot = 180;
+	double right_hand2_rot_speed = max_right_hand2_rot/steps;
+	double cur_right_hand2_rot = 0;
+
+	double max_left_foot2_rot = -180;
+	double left_foot2_rot_speed = max_left_foot2_rot/steps;
+	double cur_left_foot2_rot = 0;
+
+	double max_left_foot1_rot = 180;
+	double left_foot1_rot_speed = max_left_foot1_rot/steps;
+	double cur_left_foot1_rot = 0;
+
+	double max_left_foot1_rot1 = 90;
+	double left_foot1_rot_speed1 = max_left_foot1_rot1/steps;
+	double cur_left_foot1_rot1 = 0;
+
+	double max_left_foot1_disp = 0.075;
+	double left_foot1_disp_speed = max_left_foot1_disp/steps;
+	double cur_left_foot1_disp = 0;
+
+	double max_left_foot1_rot2 = 90;
+	double left_foot1_rot_speed2 = max_left_foot1_rot2/steps;
+	double cur_left_foot1_rot2 = 0;
+
+	double max_left_foot1_disp1 = 0.075;
+	double left_foot1_disp_speed1 = max_left_foot1_disp1/steps;
+	double cur_left_foot1_disp1 = 0;
+
+	double max_right_foot2_rot = -180;
+	double right_foot2_rot_speed = max_right_foot2_rot/steps;
+	double cur_right_foot2_rot = 0;
+
+	double max_right_foot1_rot = 90;
+	double right_foot1_rot_speed = max_right_foot1_rot/steps;
+	double cur_right_foot1_rot = 0;
+
+	double max_right_foot1_rot1 = 90;
+	double right_foot1_rot_speed1 = max_right_foot1_rot1/steps;
+	double cur_right_foot1_rot1 = 0;
+
+	double max_right_foot1_disp = -0.075;
+	double right_foot1_disp_speed = max_right_foot1_disp/steps;
+	double cur_right_foot1_disp = 0;
+
+	double max_right_foot1_rot2 = 180;
+	double right_foot1_rot_speed2 = max_right_foot1_rot2/steps;
+	double cur_right_foot1_rot2 = 0;
+
+	double max_right_foot1_disp1 = 0.075;
+	double right_foot1_disp_speed1 = max_right_foot1_disp1/steps;
+	double cur_right_foot1_disp1 = 0;
+
+	double max_wheel1_rot = -90;
+	double wheel1_rot_speed = max_wheel1_rot/steps;
+	double cur_wheel1_rot = 0;
+
+	double max_wheel2_rot = 90;
+	double wheel2_rot_speed = max_wheel2_rot/steps;
+	double cur_wheel2_rot = 0;
